@@ -1,2 +1,2 @@
 # moneyMarket
-The financial_metrics package provides a collection of functions for calculating common financial metrics used in stock market analysis.
+The financial_metrics package provides a collection of functions for calculating common financial metrics used in stock market analysis. These metrics include the Exponential Moving Average (EMA), Simple Moving Average (SMA), Price-to-Book (P/B) ratio, Price-Earnings (P/E) ratio, Price-Earnings-to-Growth (PEG) ratio, and Dividend Yield. These functions are designed to be easy to use and flexible, allowing users to perform efficient calculations on various financial datasets.
