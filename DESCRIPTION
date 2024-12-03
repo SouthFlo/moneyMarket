@@ -1,0 +1,22 @@
+Package: moneyMarket
+Title: Stock Market Analytics
+Version: 1.0.0
+Authors@R: 
+    person("Ugent", "Dailey", , "ugentdailey@usf.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: The financial_metrics package provides a collection of functions for calculating common financial metrics used in stock market analysis. These metrics include the Exponential Moving Average (EMA), Simple Moving Average (SMA), Price-to-Book (P/B) ratio, Price-Earnings (P/E) ratio, Price-Earnings-to-Growth (PEG) ratio, and Dividend Yield. These functions are designed to be easy to use and flexible, allowing users to perform efficient calculations on various financial datasets.
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2.9000
+Depends: 
+    R (>= 2.10)
+LazyData: true
+Imports: 
+    dplyr (>= 1.1.0),
+    readr (>= 1.1.0),
+    zoo (>= 1.1.0)
+Suggests: 
+    ggplot2 (>= 3.0.0),
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+License: MIT + file LICENSE
